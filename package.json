@@ -8,7 +8,8 @@
     "preview": "astro build && wrangler dev",
     "astro": "astro",
     "deploy": "astro build && wrangler deploy",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.3.0",
@@ -16,6 +17,13 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250321.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1",
     "wrangler": "^4.4.0"
+  },
+  "lint-staged": {
+    "*.{astro,html,md,mdx,svg,css,js,jsx,ts,tsx,mjs,json,jsonc}": "prettier --write"
   }
 }
