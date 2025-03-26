@@ -1,0 +1,37 @@
+labels:
+    Accesibility:
+        color: "1d76db"
+        description: "Issues related to making the site more accessible."
+    Performance:
+        color: "d4c5f9"
+        description: "Issues related to site speed and efficiency."
+    Bug:
+        color: "d73a4a"
+        description: "Reported bugs and errors."
+    CRITICAL:
+        color: "b60205"
+        description: "Urgent and high-priority issues."
+    Dependencies:
+        color: "0366d6"
+        description: "Issues related to package dependencies."
+    Docs:
+        color: "0075ca"
+        description: "Issues related to documentation."
+    duplicate:
+        color: "cfd3d7"
+        description: "Issues that are duplicates of existing issues."
+    Feature:
+        color: "a2eeef"
+        description: "New feature requests."
+    Page:
+        color: "f9d0c4"
+        description: "Issues related to specific pages."
+    SEO:
+        color: "ccf5ac"
+        description: "Issues related to search engine optimization."
+    "Help Needed":
+        color: "008672"
+        description: "Issues needing assistance."
+    Testing:
+        color: "0e8a16"
+        description: "Issues related to testing."
