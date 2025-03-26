@@ -1,14 +1,23 @@
-on: issues
-name: Create Default Labels
+name: Manage Labels
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/labels.yml
+  workflow_dispatch:
+
+concurrency: manage-labels
+
 jobs:
-    labels:
-        name: DefaultLabelsActions
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@1.0.0
-            - name: Issue Label Manager Action
-            - uses: lannonbr/issue-label-manager-action@4.0.0
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              with:
-                  delete: true
+  manage-labels:
+    permissions:
+      contents: read
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oliversalzburg/action-label-manager@v0.0.9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
