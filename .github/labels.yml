@@ -29,7 +29,7 @@ labels:
     SEO:
         color: "ccf5ac"
         description: "Issues related to search engine optimization."
-    "Help Needed":
+    Help Needed:
         color: "008672"
         description: "Issues needing assistance."
     Testing:
