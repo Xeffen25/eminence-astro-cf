@@ -1,31 +1,31 @@
 {
-  "name": "eminence-astro-cf",
-  "type": "module",
-  "version": "1.0.0",
-  "scripts": {
-    "cf-typegen": "wrangler types",
-    "dev": "wrangler types & astro dev",
-    "build": "wrangler types & astro build",
-    "preview": "wrangler types & astro build && wrangler dev",
-    "deploy": "astro build && wrangler deploy",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/cloudflare": "^12.3.0",
-    "@tailwindcss/vite": "^4.0.16",
-    "astro": "^5.5.4",
-    "tailwindcss": "^4.0.16"
-  },
-  "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250321.0",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.5.0",
-    "prettier": "^3.5.3",
-    "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "wrangler": "^4.4.0"
-  },
-  "lint-staged": {
-    "*.{astro,html,md,mdx,svg,css,js,jsx,ts,tsx,mjs,json,jsonc}": "prettier --write"
-  }
+	"name": "eminence-astro-cf",
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"cf-typegen": "wrangler types",
+		"dev": "wrangler types & astro dev",
+		"build": "wrangler types & astro build",
+		"preview": "wrangler types & astro build && wrangler dev",
+		"deploy": "astro build && wrangler deploy",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/cloudflare": "^12.3.0",
+		"@tailwindcss/vite": "^4.0.16",
+		"astro": "^5.5.4",
+		"tailwindcss": "^4.0.16"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20250321.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.5.0",
+		"prettier": "^3.5.3",
+		"prettier-plugin-astro": "^0.14.1",
+		"prettier-plugin-tailwindcss": "^0.6.11",
+		"wrangler": "^4.4.0"
+	},
+	"lint-staged": {
+		"*.{astro,html,md,mdx,svg,css,js,jsx,ts,tsx,mjs,json,jsonc}": "prettier --write"
+	}
 }

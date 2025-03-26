@@ -1,15 +1,15 @@
 {
-  "files.associations": {
-    "wrangler.json": "jsonc"
-  },
-  "editor.wordWrapColumn": 120,
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.printWidth": 120,
-  "prettier.tabWidth": 2,
-  "prettier.useTabs": false,
-  "prettier.singleQuote": false,
-  "files.autoSave": "onFocusChange",
-  "editor.formatOnSave": true
+	"files.associations": {
+		"wrangler.json": "jsonc"
+	},
+	"editor.wordWrapColumn": 120,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.printWidth": 120,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": false,
+	"files.autoSave": "onFocusChange",
+	"editor.formatOnSave": true
 }
