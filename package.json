@@ -17,6 +17,7 @@
 		"tailwindcss": "^4.0.16"
 	},
 	"devDependencies": {
+		"@changesets/cli": "^2.28.1",
 		"@cloudflare/workers-types": "^4.20250321.0",
 		"husky": "^9.1.7",
 		"lint-staged": "^15.5.0",
