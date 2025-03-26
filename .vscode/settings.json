@@ -11,5 +11,7 @@
 	"prettier.useTabs": true,
 	"prettier.singleQuote": false,
 	"files.autoSave": "onFocusChange",
-	"editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"IDX.aI.enableInlineCompletion": true,
+	"IDX.aI.enableCodebaseIndexing": true
 }
