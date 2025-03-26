@@ -40,19 +40,19 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🔍 Want to learn more?
 
-For more information on this project head to the (wiki)[https://github.com/Xeffen25/eminence-astro-cf/wiki]
+For more information on this project head to the [wiki](https://github.com/Xeffen25/eminence-astro-cf/wiki)
 
 ## 📖 Related Docs
 
-- **(Astro)[https://docs.astro.build]:** The web framework for content-driven websites.
-- **(Cloudflare)[https://docs.astro.build]:** The best edge cloud compute provider.
-- **(Tailwind)[https://docs.astro.build]:** A utility-first CSS framework packed with classes.
+- **[Astro](https://docs.astro.build):** The web framework for content-driven websites.
+- **[Cloudflare](https://docs.astro.build):** The best edge cloud compute provider.
+- **[Tailwind](https://docs.astro.build):** A utility-first CSS framework packed with classes.
 
 ## Contributing
 
-New contributors welcome! Check out our (Contributors Guide)[docs/CONTRIBUTING.md] for help getting started.
+New contributors welcome! Check out our [Contributors Guide](docs/CONTRIBUTING.md) for help getting started.
 
 ## Links
 
-- **(License)[docs/LICENSE.md]:** The best edge cloud compute provider.
-- **(Portfolio)[https://xeffen25.com]:** A utility-first CSS framework packed with classes.
+- **[License](docs/LICENSE.md):** The best edge cloud compute provider.
+- **[Portfolio](https://xeffen25.com):** A utility-first CSS framework packed with classes.

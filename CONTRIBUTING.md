@@ -22,7 +22,7 @@ To get started working on the Eminence Astro theme, follow these steps:
 
 ## Context
 
-For context on this project you can visit the (wiki)[https://github.com/Xeffen25/eminence-astro-cf/wiki]!
+For context on this project you can visit the [wiki](https://github.com/Xeffen25/eminence-astro-cf/wiki)!
 
 ## Formatting
 
