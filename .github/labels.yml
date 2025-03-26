@@ -1,0 +1,14 @@
+on: issues
+name: Create Default Labels
+jobs:
+    labels:
+        name: DefaultLabelsActions
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@1.0.0
+            - name: Issue Label Manager Action
+            - uses: lannonbr/issue-label-manager-action@4.0.0
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                  delete: true
