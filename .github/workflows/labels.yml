@@ -1,5 +1,4 @@
 name: Manage Labels
-
 on:
   push:
     branches:
@@ -7,9 +6,7 @@ on:
     paths:
       - .github/labels.yml
   workflow_dispatch:
-
 concurrency: manage-labels
-
 jobs:
   manage-labels:
     permissions:
@@ -20,4 +17,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oliversalzburg/action-label-manager@v0.0.9
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
