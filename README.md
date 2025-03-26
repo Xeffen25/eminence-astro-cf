@@ -1,36 +1,28 @@
-# Astro Starter Kit: Basics
+# Eminence Astro Theme
 
-```sh
-npm create astro@latest -- --template basics
-```
+A better starting point for your next Astro project deployed on Cloudflare!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## ✨ Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Tailwind CSS:** Rapid UI development through utility-first styling.
+- **Cloudflare Workers Adapter:** Optimized deployment and edge delivery via Cloudflare's platform.
+- **SEO Components & Types:** Built-in SEO best practices for improved search engine visibility.
+- **TypeScript Configuration:** Simplified import paths with `@/` for `src/` and `~/` for `public/`.
+- **Code Formatting:** Consistent code style enforced by Prettier on save and commit.
+- **Editor Settings:** Seamless development experience in VSCode and IDX with project-specific settings.
+- **Project Architecture:** Organized project structure for maintainability and scalability.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 🚀 Getting Started
 
-## 🚀 Project Structure
+To get started, follow these steps:
 
-Inside of your Astro project, you'll see the following folders and files:
+| Command                                                       | Description          |
+| ------------------------------------------------------------- | -------------------- |
+| `git clone https://github.com/Xeffen25/eminence-astro-cf.git` | Clone Repository     |
+| `npm install`                                                 | Install Dependencies |
+| `npm run dev`                                                 | Start dev server     |
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
+## 💻 Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -40,9 +32,27 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run deploy`          | Deploy the site on Cloudflare(not recommended)   |
+| `npm run cf-typgen`       | Generate TypeScript definitions for Cloudflare   |
+| `npm run changeset add`   | Add a changeset locally                          |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 🔍 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+For more information on this project head to the (wiki)[https://github.com/Xeffen25/eminence-astro-cf/wiki]
+
+## 📖 Related Docs
+
+- **(Astro)[https://docs.astro.build]:** The web framework for content-driven websites.
+- **(Cloudflare)[https://docs.astro.build]:** The best edge cloud compute provider.
+- **(Tailwind)[https://docs.astro.build]:** A utility-first CSS framework packed with classes.
+
+## Contributing
+
+New contributors welcome! Check out our (Contributors Guide)[docs/CONTRIBUTING.md] for help getting started.
+
+## Links
+
+- **(License)[docs/LICENSE.md]:** The best edge cloud compute provider.
+- **(Portfolio)[https://xeffen25.com]:** A utility-first CSS framework packed with classes.
