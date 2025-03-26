@@ -50,9 +50,9 @@ For more information on this project head to the [wiki](https://github.com/Xeffe
 
 ## Contributing
 
-New contributors welcome! Check out our [Contributors Guide](docs/CONTRIBUTING.md) for help getting started.
+New contributors welcome! Check out our [Contributors Guide](CONTRIBUTING.md) for help getting started.
 
 ## Links
 
-- **[License](docs/LICENSE.md):** The best edge cloud compute provider.
+- **[License](LICENSE.md):** The best edge cloud compute provider.
 - **[Portfolio](https://xeffen25.com):** A utility-first CSS framework packed with classes.
