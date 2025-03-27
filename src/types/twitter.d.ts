@@ -116,30 +116,61 @@ type TwitterApp = {
 	/**
 	 * Information for iPhone app.
 	 */
-	iphone?: TwitterAppPlatform;
+	iphone?: {
+		/**
+		 * Name of your iPhone app
+		 * Used with app card
+		 */
+		name?: string;
+		/**
+		 * Your app ID in the iTunes App Store (Note: NOT your bundle ID)
+		 * Used with app card
+		 */
+		id?: string;
+		/**
+		 * Your app’s custom URL scheme (you must include ”://” after your scheme name)
+		 * Used with app card.
+		 */
+		url?: string;
+	};
 	/**
 	 * Information for iPad app.
 	 */
-	ipad?: TwitterAppPlatform;
+	ipad?: {
+		/**
+		 * Name of your iPad optimized app
+		 * Used with app card
+		 */
+		name?: string;
+		/**
+		 * Your app ID in the iTunes App Store
+		 * Used with app card
+		 */
+		id?: string;
+		/**
+		 * Your app’s custom URL scheme
+		 * Used with app card
+		 */
+		url?: string;
+	};
 	/**
 	 * Information for Google Play app.
 	 */
-	googleplay?: TwitterAppPlatform;
-};
-/**
- * Represents app information for a specific platform (iPhone, iPad, Google Play).
- */
-type TwitterAppPlatform = {
-	/**
-	 * Name of your app.
-	 */
-	name?: string;
-	/**
-	 * Your app ID in the respective app store.
-	 */
-	id?: string;
-	/**
-	 * Your app’s custom URL scheme.
-	 */
-	url?: string;
+	googleplay?: {
+		/**
+		 * Name of your Android app
+		 * Used with app card
+		 */
+		name?: string;
+		/**
+		 * Your app ID in the Google Play Store
+		 * Used with app card
+		 */
+		id?: string;
+		/**
+		 * Your app’s custom URL scheme
+		 * Used with app card
+		 */
+		url?: string;
+	};
 };
