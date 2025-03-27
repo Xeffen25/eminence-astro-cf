@@ -10,6 +10,13 @@ type Props = PageSEO;
 		<Seo {...Astro.props} />
 	</head>
 	<body>
-		<slot />
+		<a
+			href="#MainContent"
+			class="absolute top-0 left-0 z-[-9999] m-1 rounded bg-white p-2 font-semibold text-black transition-all duration-300 focus:z-[9999]"
+			>Saltar a contenido</a
+		>
+		<main id="MainContent" role="main" tabindex="-1">
+			<slot />
+		</main>
 	</body>
 </html>
