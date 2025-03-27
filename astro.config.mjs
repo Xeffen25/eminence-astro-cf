@@ -17,7 +17,6 @@ export default defineConfig({
 		},
 	}),
 	output: "server",
-	scopedStyleStrategy: "class",
 	vite: {
 		plugins: [tailwindcss()],
 	},
