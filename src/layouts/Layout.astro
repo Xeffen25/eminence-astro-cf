@@ -1,15 +1,13 @@
 ---
 import "@/styles/global.css";
-interface Props extends PageSEO {}
+import Seo from "@/components/seo/Seo.astro";
+type Props = PageSEO;
 ---
 
 <!doctype html>
 <html lang={Astro.currentLocale}>
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<title>Astro Basics</title>
+		<Seo {...Astro.props} />
 	</head>
 	<body>
 		<slot />

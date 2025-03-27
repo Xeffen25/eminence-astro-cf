@@ -13,7 +13,7 @@ declare global {
 		description: string;
 		/**
 		 * The canonical URL of the page, used to prevent duplicate content issues.
-		 * Optional.
+		 * @default new URL(Astro.url.pathname, Astro.site)
 		 */
 		canonical?: string;
 		/**
@@ -21,16 +21,6 @@ declare global {
 		 * @default "index, follow"
 		 */
 		robots?: string;
-		/**
-		 * A comma-separated list of keywords related to the page's content.
-		 * Optional.
-		 */
-		keywords?: string;
-		/**
-		 * The author of the page.
-		 * Optional.
-		 */
-		author?: string;
 		/**
 		 * Open Graph metadata for social media sharing.
 		 * Optional.
@@ -40,7 +30,7 @@ declare global {
 		 * Twitter metadata for Twitter card display.
 		 * Optional.
 		 */
-		twitter?: Twitter;
+		twitter?: TwitterCard;
 	};
 }
 export {};

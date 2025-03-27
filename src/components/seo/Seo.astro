@@ -1,0 +1,19 @@
+---
+import OpenGraph from "@/components/seo/OpenGraph.astro";
+import Twitter from "@/components/seo/Twitter.astro";
+import Favicons from "@/components/seo/Favicons.astro";
+
+type Props = PageSEO;
+const props = Astro.props;
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="canonical" href={props.canonical ? props.canonical : new URL(Astro.url.pathname, Astro.site)} />
+<meta name="robots" content={props.robots ? props.robots : "index, follow"} />
+<title>{props.title}</title>
+<meta name="description" content={props.description} />
+
+<OpenGraph {...props} />
+<Twitter {...props} />
+<Favicons />
