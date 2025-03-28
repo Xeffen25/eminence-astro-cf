@@ -25,17 +25,21 @@ export default defineConfig({
 	},
 	integrations: [
 		webmanifest({
-			name: "Eminenc Astro Theme for Cloudflare",
+			name: "Eminence Astro Theme for Cloudflare",
 			icon: "public/favicon.svg",
 			short_name: "Eminence Theme",
 			description:
 				"A better starting point for Astro projects deployed on Cloudflare so you can just start developing",
 			start_url: "/",
-			theme_color: "#CC0000",
 			background_color: "#CC0000",
 			display: "standalone",
 			config: {
 				outfile: "site.webmanifest",
+				createFavicon: false,
+				insertFaviconLinks: false,
+				insertThemeColorMeta: false,
+				insertManifestLink: false,
+				insertAppleTouchLinks: false,
 			},
 		}),
 		sitemap(),
