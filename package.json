@@ -18,6 +18,7 @@
 		"@tailwindcss/vite": "^4.0.16",
 		"astro": "^5.5.4",
 		"astro-robots-txt": "^1.0.0",
+		"astro-webmanifest": "^1.0.0",
 		"tailwindcss": "^4.0.16"
 	},
 	"devDependencies": {
